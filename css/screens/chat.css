@@ -1,10 +1,14 @@
 #chat-screen {
-  background-color: #abc1d1;
-  height: 500vh;
+  background-image: url("https://images.mir.pe/file/8bc9e381797334eb33da66e3ba501be174c500cb4a9748edefc2230d3bec2e6f98d607ad75db5a9e89451077a6db88e0");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 #chat-screen .status-bar {
-  background-color: #abc1d1;
+  /* background-color: #abc1d1; */
+  background-color: white;
   z-index: 2;
 }
 
@@ -13,7 +17,7 @@
   width: 100%;
   top: 0;
   box-sizing: border-box;
-  background-color: #abc1d1;
+  background-color: white;
   z-index: 1;
 }
 
